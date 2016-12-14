@@ -1,8 +1,13 @@
-/** Author: Mohammed Ibrahim
+ /** Author: Mohammed Ibrahim
 About: Given two integers, m , n (m=length of prefix, n= length of suffix) and a list of vertices in a graph
 		Outpue a list of start and end vertices and a set of vertices (of size m+n-2) to exclude when finding path
 
 **/
+
+/*  Todo: for every prefix/suffix possible, i.e(see if paths are actually existent and then count 
+    how many work). i.s [1,3] [2,4,5,6]. [2,4,1] actually existent [3,5,6] existent? if yes, then count it. Do this for every 
+    possible prefix-suffix using the excluded vertex.
+*/
 import java.util.*;
 import java.util.Arrays;
 
