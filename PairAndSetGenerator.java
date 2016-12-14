@@ -92,11 +92,11 @@ public class PairAndSetGenerator
     }
     public static void printSourceDestAndSet(int[] setToExclude, int[] source_dest)
     {
-    	System.out.println(Arrays.toString(source_dest) +" "+ Arrays.toString(setToExclude));
+    	System.out.println(Arrays.toString(source_dest) +" : "+ Arrays.toString(setToExclude));
 		int[] dest_source = new int[source_dest.length];
 		dest_source[0] = source_dest[1];
 		dest_source[1] = source_dest[0];
-    	System.out.println(Arrays.toString(dest_source) +" "+ Arrays.toString(setToExclude));
+    	System.out.println(Arrays.toString(dest_source) +" : "+ Arrays.toString(setToExclude));
     }
 
 }
